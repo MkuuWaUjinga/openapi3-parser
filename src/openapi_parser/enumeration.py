@@ -39,6 +39,7 @@ class StringFormat(Enum):
     IPV4 = 'ipv4'
     IPV6 = 'ipv6'
     URL = 'url'
+    STRING = 'string'
 
 
 @unique
