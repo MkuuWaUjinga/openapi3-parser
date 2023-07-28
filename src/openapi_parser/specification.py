@@ -48,7 +48,7 @@ class ExternalDoc:
 
 @dataclass
 class Schema:
-    type: DataType
+    type: Optional[DataType] = None
     title: Optional[str] = None
     enum: Optional[list[Any]] = field(default_factory=list)
     example: Optional[Any] = None
